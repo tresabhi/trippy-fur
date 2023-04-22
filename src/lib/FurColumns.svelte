@@ -1,11 +1,11 @@
 <script lang="ts">
-  import SIZE from "../constants/size";
-  import FurRow from "./FurRow.svelte";
+  import { SIZE } from "../constants/rendering";
+  import FurRows from "./FurRows.svelte";
 </script>
 
 <div id="fur-row">
   {#each { length: window.innerHeight / SIZE } as item, index}
-    <FurRow column="{index}" />
+    <FurRows column="{index}" />
   {/each}
 </div>
 

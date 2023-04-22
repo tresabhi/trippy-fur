@@ -1,5 +1,5 @@
 <script lang="ts">
-  import SIZE from "../constants/size";
+  import { SIZE } from "../constants/rendering";
   import FurItem from "./FurItem.svelte";
 
   export let column: number;

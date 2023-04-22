@@ -1,7 +1,7 @@
 <script lang="ts">
-  import FurColumn from "./lib/FurColumn.svelte";
+  import FurColumns from "./lib/FurColumns.svelte";
 </script>
 
 <main>
-  <FurColumn />
+  <FurColumns />
 </main>
