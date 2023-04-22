@@ -34,7 +34,7 @@
   <div
     bind:this="{prong}"
     id="prong"
-    style="{`border-radius: ${SIZE / 16}px; height: ${SIZE / 8}px;`}"
+    style="{`border-radius: ${SIZE / 32}px; height: ${SIZE / 16}px;`}"
   ></div>
 </div>
 
